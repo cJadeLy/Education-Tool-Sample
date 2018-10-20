@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta id="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet"  href = "style.css">
+
+  <title>Generation</title>
+
+<h1 id = "head">IEEE Format Citation Generator</h1>
+
+</head>
+<body>
+
+
+
+
+
+    <div class = "tabContainer">
+      <h2 class = "generate" >IEEE Format Citation Information</h2>
+
+		<input type = "text" class  = "patentInput" placeholder = "Title" id = "getTitle">
+
+	   <input type = "text" class  = "patentInput" placeholder  = "Author First Name" id = "getauthorFirst">
+
+	  	<input type = "text" class  = "patentInput" placeholder  = "Author Last Name" id = "getauthorLast">
+
+		<input type = "text" class  = "patentInput" placeholder = "City of Publication" id = "getCity">
+
+		<input type = "text" class  = "patentInput" placeholder = "State of Publication" id = "getState">
+<label style = "color:white; display:inline;">           Date of Publiation: </label>
+		 <input type = "text" class  = "patentInput" placeholder = "Month" id = "getM">
+		 <input type = "text" class  = "patentInput" placeholder = "Day" id = "getD">
+		 <input type = "text" class  = "patentInput" placeholder = "Year" id = "getY">
+
+
+<button class = "sbutton" onclick = "myFunction()">Generate Citation</button>
+<textarea id = "bookAuthor">
+</textarea>  <textarea id = "bookAuthorL">
+</textarea>
+
+  </div>
+
+  <div>
+	  <script>
+	  function myFunction() {
+	      //var auth = document.getElementById("getauthorFirst").value;
+	  	document.getElementById("bookAuthor").value = document.getElementById("getauthorFirst").value;
+		document.getElementById("bookAuthorL").value = document.getElementById("getauthorLast").value;
+	  	// document.getElementById("myTextarea").value = document.getElementById("newarea").value;
+	  	// document.getElementById("myTextarea").value = document.getElementById("newarea").value;
+
+
+
+
+}
+</script>
+
+    <script src = "createjs.js"></script>
+</body>
+</html>
