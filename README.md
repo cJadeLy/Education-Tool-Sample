@@ -12,7 +12,7 @@ The default image name was a rediculous filename that made no sense, I wish now 
 
 [PrintSourceDetails.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/PrintSourcDetails.jpg) - this is also index.html, just when the user selects the `Print`tab
 
-[customCitationView.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/custumCitationView.jpg) - this is also index.html, just when the user selects the `Custom` tab 
+[customCitationView.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/customCitationView.jpg) - this is also index.html, just when the user selects the `Custom` tab 
 
 [provideDeetsToCite.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/provideDeetsToCite.jpg) - this is print.html. There is not a screen shot from create.html but create is very similar and you could view it if u follow Build Instructions (also submitted within exam)
 
