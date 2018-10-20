@@ -6,15 +6,15 @@ Screen shots were submitted before 11:59pm on 10/19 and reflect the state of the
 
 The default image name was a rediculous filename that made no sense, I wish now I would have named them the same name as the source files but.. yea. 
 
-**internetTabDetails.jpg** - this is index.html 
+[internetTabDetails.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/InternetTabDetails.jpg) - this is index.html 
 
-**PatentDetails.jpg** - this is also index.html, just after the user selects the `Patent` tab
+[PatentDetails.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/PatentDetails.jpg) - this is also index.html, just after the user selects the `Patent` tab
 
-**PrintSourceDetails.jpg** - this is also index.html, just when the user selects the `Print`tab
+[PrintSourceDetails.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/PrintSourcDetails.jpg) - this is also index.html, just when the user selects the `Print`tab
 
-**customCitationView.jpg** - this is also index.html, just when the user selects the `Custom` tab 
+[customCitationView.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/custumCitationView.jpg) - this is also index.html, just when the user selects the `Custom` tab 
 
-**provideDeetsToCite.jpg** - ... this is print.html. There is not a screen shot from create.html but create is very similar and you could view it if u follow Build Instructions (also submitted within exam)
+[provideDeetsToCite.jpg](https://github.com/cJadeLy/Education-Tool-Sample/blob/master/provideDeetsToCite.jpg) - this is print.html. There is not a screen shot from create.html but create is very similar and you could view it if u follow Build Instructions (also submitted within exam)
 
 ## Class Diagram 
 Do no go to ClassDiagram.docx - my bad
