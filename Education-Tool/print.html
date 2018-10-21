@@ -29,38 +29,64 @@
 		<input type = "text" class  = "patentInput" placeholder = "City of Publication" id = "getCity">
 
 		<input type = "text" class  = "patentInput" placeholder = "State of Publication" id = "getState">
+				<input type = "text" class  = "patentInput" placeholder = "Publisher" id = "getPub">
 <label style = "color:white; display:inline;">           Date of Publiation: </label>
 		 <input type = "text" class  = "patentInput" placeholder = "Month" id = "getM">
-		 <input type = "text" class  = "patentInput" placeholder = "Day" id = "getD">
 		 <input type = "text" class  = "patentInput" placeholder = "Year" id = "getY">
 
 
-<button class = "sbutton" onclick = "myFunction()">Generate Citation</button>
-<button class = "sbutton" onclick = "myFunction()">Add another Citation</button>
-<button class = "sbutton" onclick = "myFunction()">Finish</button>
+<button class = "sbutton" id = "subbutton" type = "button" onclick = "myFunction()">Generate Citation</button>
+<!-- <button class = "sbutton" onclick = "myFunction()">Add another Citation</button>
+<button class = "sbutton" onclick = "myFunction()">Finish</button> -->
 
-<!-- <textarea wrap="off"id = "bookAuthor.at(0)">
-</textarea >   -->
-<!-- <textarea wrap="off" id = "bookAuthorL">
-</textarea> -->
-<textarea name="res" rows="10" cols="40"> This text will be replaced with a generated IEEE formatted citation </textarea>
+<p id = "res"  > This text will be replaced with a generated IEEE formatted citation
+
+</p>
+
+
   </div>
 
   <div>
-	  <script>
+	  <!-- <script>
 	  function myFunction() {
 	      //var auth = document.getElementById("getauthorFirst").value;
 	  	document.getElementById("bookAuthor").value = document.getElementById("getauthorFirst").value;
-		document.getElementById("bookAuthorL").value = document.getElementById("getauthorLast").value;
-	  	// document.getElementById("myTextarea").value = document.getElementById("newarea").value;
+		document.getElementById("bookAuthor").append(document.getElementById("getauthorLast").text());
+
 	  	// document.getElementById("myTextarea").value = document.getElementById("newarea").value;
 
 
 
 
 }
+
+</script> -->
+<script>
+  function myFunction() {
+var firstname = document.getElementById("getauthorFirst").value;
+var lastname = document.getElementById("getauthorLast").value;
+var getTitle = document.getElementById("getTitle").value;
+var city = document.getElementById("getCity").value;
+var state = document.getElementById("getState").value;
+var pub = document.getElementById("getPub").value;
+var Mmm = document.getElementById("getM").value;
+var yyyy = document.getElementById("getY").value;
+
+
+var res = document.getElementById('res');
+
+// if (getTitle.length < 3) {
+//     res.textContent = 'Username must contain at least 3 characters';
+//     //alert('Username must contain at least 3 characters');
+// } else {
+    res.textContent = 'Generated Citation is: ' + firstname.charAt(0) + '.' + lastname + " " + getTitle + " " + city + ',' + state + ': ' + pub + ', ' + Mmm.charAt(0) + Mmm.charAt(1) +Mmm.charAt(2) + ', ' + yyyy;
+    //alert(nameField);
+// }
+var subButton = document.getElementById('subButton');
+subButton.addEventListener('click',myFunction, false);
+}
 </script>
 
-    <script src = "createjs.js"></script>
+   <script src = "createjs.js"></script>
 </body>
 </html>
